@@ -3,9 +3,6 @@
 % all cycles, dQ/dV, and capacity retention.
 % dQ/dV requires the use of signal processing toolbox.
 % Code prepared by Leo W. Gordon.
-% Head Programme - GUI to input data and choose which figures to get.
-% Gives figures with: 3 cycles of your choosing, battery statistics, 
-% all cycles, dQ/dV, and capacity retention.
 function BatteryDataProgram
 % Create figure
 h.f = figure('units','normalized','position',[0.35,0.25,0.3,0.5],...
